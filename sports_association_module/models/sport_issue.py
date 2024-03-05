@@ -4,7 +4,7 @@ class SportIssue(models.Model):
     _name = "sport.issue"
     _description = "Model for reporting Sports Issues"
 
-    name = fiels.Char(string='Name')
+    name = fields.Char(string='Name')
     description = fields.Text(string='Description')
     date = fields.Date(string="Date")
     assistance = fields.Bool(string="Assistance")
